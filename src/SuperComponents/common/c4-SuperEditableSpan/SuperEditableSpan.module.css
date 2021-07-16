@@ -1,0 +1,10 @@
+.span {
+    display: inline-block;
+    height: 25px;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+.span img {
+    vertical-align: bottom;
+}

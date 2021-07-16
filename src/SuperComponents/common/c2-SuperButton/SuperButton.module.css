@@ -1,0 +1,42 @@
+.default {
+    margin: 10px 10px;
+    padding: 10px 20px;
+    color: black;
+    border: 2px solid purple;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.default:hover {
+    background: plum;
+}
+
+.default:focus {
+    outline: none;
+    outline-offset: 0;
+}
+
+.default:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.red {
+    margin: 10px 20px;
+    padding: 10px 30px;
+    color: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: red;
+}
+
+.red:hover {
+    background: #a20005;
+}
+
+.red:focus {
+    outline: none;
+    outline-offset: 0;
+}
